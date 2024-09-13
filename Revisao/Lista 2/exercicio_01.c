@@ -47,4 +47,6 @@ int main() {
     scanf(" %[^\n]", user.add.state);
 
     printf("%s, %d Anos de idade.\n%s, n%d - %s, %s\n%d - %s - %s\n", user.name,user.age, user.add.street, user.add.number, user.add.neighborhood, user.add.complement, user.add.zipCode, user.add.city, user.add.state);
+
+    return 0;
 }

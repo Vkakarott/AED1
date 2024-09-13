@@ -23,4 +23,6 @@ int main() {
     scanf("%d", &ponto[1].B);
 
     printf("A distancia entre os pontos é %d\n", cauculateDistance(ponto[0], ponto[1]));    
+
+    return 0;
 }

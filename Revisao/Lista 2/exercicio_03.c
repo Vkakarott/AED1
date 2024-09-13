@@ -18,4 +18,6 @@ int main () {
     scanf("%d %d", &points.X, &points.Y);
 
     printf("A distancia do ponto (%d,%d) ao ponto (0,0) é %.2f\n", points.X, points.Y, distance(points.X, points.Y));
+
+    return 0;
 }
