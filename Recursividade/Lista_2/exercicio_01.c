@@ -1,19 +1,19 @@
 #include <stdio.h>
 
-void printNatural(int current, int n){
-    printf("%d ", current);
-    
-    if(current == n){
-        printf("\n");
-    }
+void printNatural(int x, int y){
+    if(y < 0) return;
 
-    printNatural(current + 1, n);
+    printf("%d ", x - y);
+    
+
+    printNatural(x, y - 1);
 }
+
 int main() {
     int n;
     scanf("%d", &n);
 
-    printNatural(1, n);
+    printNatural(n, n);
 
     return 0;
 }
