@@ -34,6 +34,10 @@ int pto_acessa(Point* p, float* x, float* y){
 };
 
 int pto_atribui(Point* p, float x, float y){
+    if(p == NULL) return 0;
+
+    p->x = x;
+    p->y = y;
     return 1;
 };
 
