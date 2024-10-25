@@ -26,6 +26,12 @@ int main(){
     elemento.chave = 3;
     elemento.dado = 30;
     push(pilha, elemento);
+    elemento.chave = 4;
+    elemento.dado = 40;
+    push(pilha, elemento);
+    elemento.chave = 5;
+    elemento.dado = 50;
+    push(pilha, elemento);
     printf("Elementos inseridos!\n");
 
     printf("Verificando se a pilha está vazia...\n");
